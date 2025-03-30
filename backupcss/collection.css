@@ -1,0 +1,255 @@
+.main-content .collection-product .collection-top a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.main-content .collection-product .collection-top {
+    padding: 20px;
+}
+
+.main-content .collection-main{
+    display: flex;
+}
+.main-content .collection-main .collection-filter{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 15%;
+    background-color: white;
+    padding-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 100%
+}
+.main-content .collection-main .collection-filter .filter-single{
+    padding: 10px 0px;
+}
+.main-content .collection-main .collection-filter .filter-single .list-filter-single{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-content .collection-main .collection-filter .filter-single .list-filter-single .filter-group {
+    margin-top: 20px;
+}
+.main-content .collection-main .collection-filter .filter-single .list-filter-single .filter-group .filter-wrapper .filter-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.main-content .collection-main .collection-filter .filter-single .list-filter-single .filter-group .filter-wrapper .filter-content ul{
+    list-style: none;
+}
+.main-content .collection-main .collection-filter .filter-single .list-filter-single .filter-group .filter-wrapper .filter-content ul li{
+    padding: 3px;
+}
+.main-content .collection-main .collection-filter .filter-single .list-filter-single .filter-group .filter-wrapper .filter-content ul li label{
+    cursor: pointer;
+}
+.main-content .collection-main .container-collection-wrapper{
+    width: 85%
+}
+.main-content .container-collection{
+    background-color: white;
+    border-radius: 3px;
+    position:relative;
+    margin-bottom: 10px;
+}
+.main-content .container-collection .collection-product-name{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    border-left: 4px solid black;
+}
+.main-content .container-collection .collection-product-name strong{
+    margin-left: 20px;
+}
+.main-content .container-collection .collection-product{
+    display:grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 60px 10px 10px;
+}
+.main-content .container-collection .collection-product div.product-card{
+    border: 2px solid whitesmoke;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.main-content .container-collection .collection-product div.product-card:hover{
+    box-shadow: 1px 5px 15px #ececec;
+}
+.main-content .container-collection .collection-product div.product-card div.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    transition:ease 1s;
+}
+
+.main-content .container-collection .collection-product div.product-card div.product-image img:hover{
+    transform: scale(1.10);
+}
+
+.main-content .container-collection .collection-product div.product-card a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-content .container-collection .collection-product div.product-card span.product-name{
+    display: block;
+}
+.main-content .container-collection .collection-product div.product-card div.cost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+.main-content .container-collection .collection-product div.product-card div.cost span{
+    font-weight: 550;
+    display: block;
+}
+.main-content .container-collection .collection-product div.product-card div.cost span.CostBeforeSale{
+    color: gray;
+}
+.main-content .container-collection .collection-product div.product-card div.cost span.RealCost{
+    color: red;
+    font-size: larger;
+}
+
+.main-content .container-collection .collection-product div.product-card div.product-image{
+    height: 215px;
+    width: 100%;
+    margin-top:20px;
+    overflow: hidden;
+}
+.main-content .container-collection .collection-product div.product-card .product-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+}
+.main-content .container-collection .collection-product div.product-card .product-detail .para-tag{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    justify-items: center;
+    align-content: center;
+    padding: 10px;
+}
+.main-content .container-collection .collection-product div.product-card .product-detail .para-tag li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3px;
+}
+.main-content .container-collection .collection-product div.product-card .product-detail .para-tag img{
+    object-fit: cover;
+    object-position: center;
+}
+.main-content .container-collection .button-product{
+    width: 100%;
+    height: 60px;
+    display: none;
+}
+.main-content .container-collection .button-product a{
+    font-weight: 500;
+    font-size: 15px;
+    border: 1px solid white;
+    text-align: center;
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 10px 50px;
+    margin: 10px auto;
+}
+.main-content .container-collection .button-product a:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+/* sort */
+.container-collection-wrapper .container-collection .collection-sort{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper{
+    position: relative;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .sort-button{
+    border: 1px solid black;
+    display:flex;
+    gap:5px;
+    padding:5px;
+    justify-content: center;
+
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-size: 16px;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .sort-button i{
+    font-size: 20px;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .sort-button .sortlist_value{
+    font-weight: 500;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .sort-button .sortlist_value::after{
+    content: "";
+    position: relative;
+    top: 12px;
+    left: 3px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid black;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .list_sort li{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .list_sort li:hover{
+    background-color: #e7f2ff;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .list_sort{
+    list-style: none;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .list_sort_wrapper{
+    position: absolute;
+    z-index: 800;
+    background-color: white;
+    top:40px;
+    width: 100%;
+    display: block;
+    visibility: hidden;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    border-radius: 3px;
+}
+.container-collection-wrapper .container-collection .collection-sort .sort-wrapper .list_sort_wrapper.visible{
+    visibility: visible;
+}

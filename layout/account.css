@@ -1,0 +1,277 @@
+.container-user{
+    height: auto;
+}
+.container-user-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:10px;
+}
+.left{
+    background-color: white;
+    width: 25%;
+    height: 100%;
+}
+.left .left-menu{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.left .left-menu li a{
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    border-radius: 30px;
+}
+.left .left-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.left .left-header i{
+    font-size: 50px;
+}
+.left .left-header span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.left .left-menu li{
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.left .left-menu li:hover a{
+    color: white;
+    background-color: black;
+}
+.left .left-menu li:hover li{
+    background-color: black;
+}
+.left .left-menu li a{
+    display: block;
+    width: 100%;
+}
+.right{
+    background-color: white;
+    width: 70%;
+    height: auto;
+}
+
+.wrapper .main-header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+}
+.main{
+    position: relative;
+}
+.main .box-content{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.main .box-content .update-form{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.main .box-content .update-form input.submitupdate{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 80%;
+    font-family: 500;
+    font-size: 17px;
+    margin: 0 auto;
+}
+.main .box-content .update-form input.submitupdate:hover{
+    background-color: white;
+    color:black;
+}
+.main .box-content .update-form div{
+    display: flex;
+    align-items: center;
+}
+.main .box-content .update-form div.radio-gender div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    width: 80%;
+    gap: 10px;
+}
+.main .box-content .update-form div label.input{
+    width: 20%;
+}
+.main .box-content .update-form div.type input{
+    width: 80%;
+    padding: 6px;
+}
+
+.box-content .box-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-content .box-address .address-content{
+    display: flex;
+    gap: 10px;
+}
+.box-content .box-address .address-content .content .user-name{
+    font-weight: 500;
+}
+.box-content .box-address .address-content .content .address,.phone-number{
+    font-size: 12px
+}
+.box-content .box-address .address-content i{
+    font-size: 50px;
+}
+.box-content .box-address .button-group{
+    text-align: center;
+}
+.box-content .box-address .button-group a{
+    color: red;
+}
+
+.box-content .box-address .button-group button{
+    border: 1px solid white;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: black;
+}
+.box-content .box-address .button-group button:hover{
+    border:2px solid black;
+    background-color: white;
+    color: black;
+}
+.box-add{
+    text-align:end;
+    margin-bottom: 10px;
+}
+.box-add .btn-toggleaddAD{
+    color: blue;
+    height: 30px;
+    background-color: transparent;
+    border: 1px dotted blue;
+    cursor: pointer;
+}
+.main .box-content table td a{
+    color: blue;
+}
+.main .box-content table td a:hover{
+    text-decoration: underline;
+}
+.main .box-content .content-order{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+.main .box-content .content-order .user-info{
+    width: 40%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.main .box-content .content-order .order-info{
+    border: 1px solid grey;
+    width: 45%;
+    padding: 10px;
+}
+.main .box-content .content-order .order-product-info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.main .box-content .content-order .order-cost{
+    width: 100%;
+    text-align: end;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.main .box-content .content-order .order-cost .finalcost span{
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+.main .box-content .content-order .order-product-info .product-left .product-img{
+    width: 80px;
+}
+.main .box-content .content-order .order-product-info .product-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .box-content .content-order .order-product-info .product-left {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+.main .box-content .content-order .order-product-info .product-left .product-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.main .set_password{
+    position:absolute;
+    right: 30px;
+    top:20px;
+}
+.main .set_password a{
+    color: blue;
+}
+.main .set_password a:hover{
+    border-bottom: 1px solid blue;
+}
+.changepass_form {
+    display: flex;
+    flex-direction:column;
+}
+.changepass_form .type-changepass{
+    display: flex;
+    flex-direction: column;
+}
+.changepass_form .type-changepass div{
+    width: 80%;
+    margin: 0 auto;
+}
+.changepass_form .type-changepass input{
+    padding: 8px;
+    width: 100%;
+}
+.changepass_form .type-changepass .form-message{
+    margin-left:85px;
+    font-size: 12px;
+    color: red;
+}
+.changepass_form .submitupdate{
+    background-color: #242424;
+    color:white;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px;
+    width: 80%;
+    margin: 10px auto;
+}
+.changepass_form .submitupdate:hover{
+    background-color: white ;
+    color:black;
+}

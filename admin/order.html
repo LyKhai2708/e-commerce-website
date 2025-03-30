@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af6fee153e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo"><img src="/image/logot.png" alt="" srcset=""></div>
+            <div class="logout">
+                <i class="fa-regular fa-user"></i> 
+                <span>Xin chào Admin</span>
+                <a href="javascript:(0)">Đăng Xuất</a>
+            </div>
+        </header>
+        <div class="container">
+            <section class="sidebar">
+                <div class="sidebar-header"><i class="fa-solid fa-list"></i> Bảng Điều Khiển</div>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item"><i class="fa-solid fa-house-flood-water"></i><a href="index.php">Trang Chủ</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-table-list"></i><a href="index.php?control=category">Danh Mục </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-box"></i><a href="index.php?control=product">Sản Phẩm </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-box"></i><a href="index.php?control=productsp"> Thông Số Sản Phẩm </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class='bx bx-images'></i><a href="index.php?control=productgal">Gallery</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-users"></i><a href="index.php?control=user">User</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-brands fa-apple"></i><a href="index.php?control=brand">Thương Hiệu</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-regular fa-clipboard"></i><a href="index.php?control=orders">Đơn Hàng</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-arrow-trend-up"></i><a href="index.php?control=avenue">Doanh Số</a> <i class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="admin-content">
+                <div class="content-header">
+                    <span>Sản Phẩm</span>
+                </div>
+
+                <div class="content-main--category">
+                        <table class="table" cellpadding="3" cellspacing="0">
+                            <thead>
+                                <th>Mã Đơn</th>
+                                <th>Tên Khách Hàng</th>
+                                <th>Địa chỉ</th>
+                                <th>Số điện thoại</th>
+                                <th>Email</th>
+                                <th>HTTT</th>
+                                <th>Note</th>
+                                <th>Thời gian đặt hàng</th>
+                                <th>Trạng thái đơn hàng</th>
+                                <th>Tổng tiền</th>
+                                <th>Hành động</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>N0608201Apr24043657</td>
+                                    <td>Lý Phương Khải</td>
+                                    <td>115/6e CMT8, Xã Cao Xá, Huyện Lâm Thao,  Phú Thọ</td>
+                                    <td>08966706866</td>
+                                    <td>khai@gmail.com</td>
+                                    <td>COD</td>
+                                    <td class="truncanted">giao nhanh nhe</td>
+                                    <td>2024-04-01</td>
+                                    <th><button class="btn-changestatus">Chờ duyệt</button></th>
+                                    <th>7700000.00</th>
+                                    <td>
+                                        <a class="button-view" href="">Xem chi tiết</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>N0608201Apr24043657</td>
+                                    <td>Lý Phương Khải</td>
+                                    <td>115/6e CMT8, Xã Cao Xá, Huyện Lâm Thao,  Phú Thọ</td>
+                                    <td>08966706866</td>
+                                    <td>khaiB2111930@student.ctu.edu.com</td>
+                                    <td>COD</td>
+                                    <td class="truncanted">giao nhanh nhe</td>
+                                    <td>2024-04-01</td>
+                                    <th><button class="btn-changestatus">Chờ duyệt</button></th>
+                                    <th>7700000.00</th>
+                                    <td>
+                                        <a class="button-view" href="">Xem chi tiết</a>
+                                    </td>
+                                </tr>
+                                
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="logo-footer"><img src="/image/logot.png" alt="" srcset=""></div>
+            <p>©2024 Lý Phương Khải B2111930
+                <br><i class="fa-solid fa-location-dot"></i> 115/8e Phường An Thới, Quận Bình Thủy, Thành Phố Cần Thơ
+                <br><i class='bx bxs-envelope'></i> khaiB2111930@student.ctu.edu.vn
+            </p>
+            <div class="social-footer">
+                <div class="facebook-footer"><a href="https://www.facebook.com/B1ue.04/"><i class='bx bxl-facebook-circle'></i></a></div>
+                <div class="instagram-footer"><a href="https://www.instagram.com/khiisme/"><i class='bx bxl-instagram'></i></a></div>
+            </div>
+        </footer>
+        <div class="modal m-hidden">
+            <div class="modal__inner order">
+                <div class="modal_header">
+                    <h3 class="modal_title">Chi tiết đơn hàng</h3>
+                    <div class="modal_close"><i class='bx bx-x'></i></div>
+                </div>
+                <hr>
+                <div class="modal_body">
+                    <div class="card-product">
+                        <div class="product_info">
+                            <div class="product_img"><img src="../upload/Laptop Dell Inspiron 15 N3530.webp"></div>
+                            <div class="product_name">ASUS TUF F15</div>
+                        </div>
+                        <div class="product_cost">
+                            <div class="quantity">Số lượng: 2</div>
+                            <div class="cost">Tổng tiền: 50000000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal_footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

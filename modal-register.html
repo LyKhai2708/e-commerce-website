@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/layout/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af6fee153e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="modal-register m-hidden">
+        <div class="modal__inner">
+            <div class="modal_header">
+                <h3 class="modal_title"></h3>
+                <div class="modal_close"><i class='bx bx-x'></i></div>
+            </div>
+            <hr>
+            <div class="modal_body">
+                <div class="form-wrap">
+                    <div class="register-form m-hidden">
+                        <form action="" method="post" id="create-cus" accept-charset="UTF-8">
+                            <input type="hidden" name="form-type" value="create-cús">
+                            <input type="hidden" name="utf8" value="✓">
+                            <div class="form-input-wrapper">
+                                <input type="text" name="" id="register[cus-name]" required placeholder="Họ và Tên">
+                            </div>
+                            <div class="form-input-wrapper">
+                                <input type="email" name="" id="register[cus-email]" required  placeholder="Email">
+                            </div>
+                            <div class="form-input-wrapper">
+                                <input type="tel" name="" id="register[cus-phone]" required placeholder="Số điện thoại">
+                            </div>
+                            <div class="form-input-wrapper">
+                                <input type="password" name="" id="register[cus-pass]" required placeholder="Mật Khẩu">
+                            </div>
+                            <input type="hidden" name="cus-role" value="1">
+                            <div class="form-input-wrapper last">
+                                <button type="submit">Đăng Kí</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="login-form m-hidden">
+                        <form action="" method="post" id="cus-login" accept-charset="UTF-8">
+                            <input type="hidden" name="form-type" value="create-cús">
+                            <input type="hidden" name="utf8" value="✓">
+                            <div class="form-input-wrapper">
+                                <input type="email" name="" id="login[cus-email]" required  placeholder="Email">
+                            </div>
+                            <div class="form-input-wrapper">
+                                <input type="password" name="" id="login[cus-pass]" required placeholder="Mật Khẩu">
+                            </div>
+                            <div class="form-input-wrapper text-right">
+                                <a href="javascript:void(0)">Quên mật khẩu</a>
+                            </div>
+                            <input type="hidden" name="cus-role" value="1">
+                            <div class="form-input-wrapper last">
+                                <button type="submit">Đăng nhập</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="modal_footer">
+                <div class="form-chng-btn login-footer m-hidden">
+                    <span>Bạn chưa có tài khoản?<a href="javascript:void(0)" class="register-trigger">Đăng ký ngay</a></span>
+                </div>
+                <div class="form-chng-btn register-footer m-hidden">
+                    <span>Bạn đã có tài khoản?<a href="javascript:void(0)" class="login-trigger">Đăng nhập</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="/javascript/login-res.js"></script>
+</html>

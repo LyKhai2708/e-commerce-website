@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N TECH</title>
+    <link rel="icon" href="/image/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="/layout/index.css">
+    <link rel="stylesheet" href="/layout/collection.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af6fee153e.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <div id="wrapper">
+        <!-- header -->
+        <header>
+            <nav>
+                <ul class="nav_link">
+                        <li><a href=""><i class="fa-solid fa-percent" ></i> Khuyến mãi</a></li>
+                        <li><a href=""><i class="fa-solid fa-wrench" ></i> Xây dựng cấu hình</a></li>
+                        <li><a href=""><i class="fa-regular fa-newspaper"></i> Tin công nghệ</a></li>
+                        <li><a href="#"><i class="fa-solid fa-headset"></i> Liên Hệ</a></li>
+                </ul>
+            </nav>
+            <div id="container">
+                <div id="container-content" role="navigation">
+                        <div class="logo">
+                            <a href="index.html" title="Home Page" rel="home">
+                                <img src="image/logot.png" >
+                            </a>
+                        </div>
+                        <div class="Category">
+                            <button id="button-cat"><i class="fa-solid fa-bars"></i><span> Danh mục sản phẩm</span></button>
+                            <div class = 'dropdown-category'>
+                                <div class='dropdown-content'>
+                                    <div class="sub-item">
+                                        <a href="#" class="cat laptop">
+                                            <div class="catcontent-wrapper">
+                                                <div class="icon"><i class='bx bx-laptop'></i></div>
+                                                <div class="icon-content"> Laptop</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="sub-item">
+                                        <a href="#" class="cat monitor">
+                                            <div class="catcontent-wrapper">
+                                                <div class="icon"><i class='bx bx-desktop'></i></div>
+                                                <div class="icon-content"> Màn hình máy tính</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="sub-item">
+                                        <a href="#" class="cat PC">
+                                            <div class="catcontent-wrapper">
+                                                <div class="icon" ><i class="fa-solid fa-computer"></i></div>
+                                                <div class="icon-content"> PC - Máy tính Bộ</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="sub-item">
+                                        <a href="#" class="cat PCcp">
+                                            <div class="catcontent-wrapper">
+                                                <div class="icon"><i class='bx bx-chip'></i></div>
+                                                <div class="icon-content"> Linh kiện máy tính</div>
+                                            </div>
+                                        </a>
+                                        <div class="submenu-2">
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp RAM">
+                                                    <span class="name-sub">RAM -Bộ Nhớ Trong</span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp RAM">
+                                                    <span class="name-sub">CPU - Vi xử lý</span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp RAM">
+                                                        <span class="name-sub">Case - Thùng Máy</span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp RAM">
+                                                        <span class="name-sub">Main Board - Bo Mạch</span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp RAM">
+                                                        <span class="name-sub">VGA - Card Đồ Họa</span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp RAM">
+                                                    <span class="name-sub">SSD - HDD</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sub-item"> 
+                                        <a href="#" class="cat ">
+                                            <div class="catcontent-wrapper">
+                                                <div class="icon"><i class='bx bx-mouse' ></i></div>
+                                                <div class="icon-content"> Phụ Kiện Máy Tính</div>
+                                            </div>
+                                        </a>
+                                        <div class="submenu-2">
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp mouse">
+                                                    <span class="name-sub">Chuột</span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp pad">
+                                                        <span class="name-sub">Lót Chuột</span>
+                                                </a>
+                                            </div>
+                                            <div class="sub-item">
+                                                <a href="#" class="cat PCcp earphone">
+                                                    <span class="name-sub">Tai Nghe</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    <form action="" class="search" title="Submit">
+                            <input type="text" placeholder="Nhập tên sản phẩm cần tìm..." autocomplete="on">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i> </button>
+                    </form>
+                    <div id="cart">
+                        <div class="button" title="Cart">
+                            <a href="cart.html">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="countAmount-cart">0</span>
+                            </a>
+                        </div>
+                        <div class="cart-dropdown-wrapper">
+                            <div class="cart-dropdown-content">
+                                <div class="img-cart-dropdown"><img src="image/cart-img-empty.png" alt=""></div>
+                                <span class="empty-cart-content">Chưa có sản phẩm trong giỏ hàng</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="login" title="login/register">
+                        <a href="javascript:void(0)" class="content-lg-dropdown">
+                            <i class="fa-regular fa-user"></i> 
+                            <span>Đăng nhập/Đăng kí</span>
+                        </a>
+                        <div class="login-register-dropdown m-hidden">
+                            <div class="login-register-notlogged-dropdown">
+                                <div class="login-register-text">Xin chào, vui lòng đăng nhập</div>
+                                <div class="action-button">
+                                    <button class="btn-login btn-action">Đăng nhập</button>
+                                    <button class="btn-register btn-action">Đăng ký</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- main -->
+        <div class="main-content">
+            <section class="collection-product">
+                <div class="collection-top top">
+                        <a  href="index.html"><p>Trang Chủ</p></a> &#8260; <span class="collection-title">Laptop</span>
+                </div>
+                <div class="collection-main">
+                    <div class="collection-filter">
+                        <div class="filter-total"></div>
+                        <div class="filter-single">
+                            <div class="list-filter-single">
+                                <div data-param="hang" class="filter-group hang">
+                                    <div class="filter-wrapper">
+                                        <div class="filter-title">
+                                            <span>Hãng</span>
+                                            <span><i class='bx bx-chevron-down'></i></span>
+                                        </div>
+                                        <div class="filter-content filter-hang">
+                                            <ul>
+                                                <li data-filter="acer">
+                                                    <label for="data-hang-1">
+                                                        <input type="checkbox" id="data-hang-1" value="acer">
+                                                        Acer
+                                                    </label>
+                                                </li>
+                                                <li data-filter="asus">
+                                                    <label for="data-hang-2">
+                                                        <input type="checkbox" id="data-hang-2" value="asus">
+                                                        ASUS
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data-filter="lenovo">
+                                                    <label for="data-hang-3">
+                                                        <input type="checkbox" id="data-hang-3" value="lenovo">
+                                                        Lenovo
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data-filter="MSI">
+                                                    <label for="data-hang-4">
+                                                        <input type="checkbox" id="data-hang-4" value="MSI">
+                                                        MSI
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-param="cpu" class="filter-group filter-cpu">
+                                    <div class="filter-wrapper">
+                                        <div class="filter-title">
+                                            <span>CPU</span>
+                                            <span><i class='bx bx-chevron-down'></i></span>
+                                        </div>
+                                        <div class="filter-content filter-cpu">
+                                            <ul>
+                                                <li data="Intel Pentinum">
+                                                    <label for="data-cpu-1">
+                                                        <input type="checkbox" id="data-cpu-1" value="Intel Pentinum">
+                                                        Intel Pentinum
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data="Intel Core I3">
+                                                    <label for="data-cpu-2">
+                                                        <input type="checkbox" id="data-cpu-2" value="Intel Core I3">
+                                                        Intel Core I3
+                                                    </label>
+            
+                                                </li>
+                                                <li data="Intel Core I5">
+                                                    <label for="data-cpu-3">
+                                                        <input type="checkbox" id="data-cpu-3" value="Intel Core I5">
+                                                        Intel Core I5
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data="Intel Core I7">
+                                                    <label for="data-cpu-4">
+                                                        <input type="checkbox" id="data-cpu-4" value="Intel Core I7">
+                                                        Intel Core I7
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data="Intel Core I9">
+                                                    <label for="data-cpu-5">
+                                                        <input type="checkbox" id="data-cpu-5" value="Intel Core I9">
+                                                        Intel Core I9
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data="AMD Ryzen 3">
+                                                    <label for="data-cpu-6">
+                                                        <input type="checkbox" id="data-cpu-6" value="AMD Ryzen 3">
+                                                        AMD Ryzen 3
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data="AMD Ryzen 5">
+                                                    <label for="data-cpu-7">
+                                                        <input type="checkbox" id="data-cpu-7" value="AMD Ryzen 5">
+                                                        AMD Ryzen 5
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data="AMD Ryzen 7">
+                                                    <label for="data-cpu-8">
+                                                        <input type="checkbox" id="data-cpu-8" value="AMD Ryzen 7">
+                                                        AMD Ryzen 7
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data="AMD Ryzen 9">
+                                                    <label for="data-cpu-9">
+                                                        <input type="checkbox" id="data-cpu-9" value="AMD Ryzen 9">    
+                                                        AMD Ryzen 9
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-param="RAM" class="filter-group RAM">
+                                    <div class="filter-wrapper">
+                                        <div class="filter-title">
+                                            <span>RAM</span>
+                                            <span><i class='bx bx-chevron-down'></i></span>
+                                        </div>
+                                        <div class="filter-content filter-RAM">
+                                            <ul>
+                                                <li data-filter="acer">
+                                                    <label for="data-RAM-1">
+                                                        <input type="checkbox" id="data-RAM-1" value="8GB">
+                                                        8GB
+                                                    </label>
+                                                </li>
+                                                <li data-filter="asus">
+                                                    <label for="data-RAM-2">
+                                                        <input type="checkbox" id="data-RAM-2" value="16GB">
+                                                        16GB
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data-filter="lenovo">
+                                                    <label for="data-RAM-3">
+                                                        <input type="checkbox" id="data-RAM-3" value="32GB">
+                                                        32GB
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data-filter="MSI">
+                                                    <label for="data-RAM-4">
+                                                        <input type="checkbox" id="data-RAM-4" value="64GB">
+                                                        64GB
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-param="Resolution" class="filter-group Resolution">
+                                    <div class="filter-wrapper">
+                                        <div class="filter-title">
+                                            <span>Màn Hình</span>
+                                            <span><i class='bx bx-chevron-down'></i></span>
+                                        </div>
+                                        <div class="filter-content filter-Resolution">
+                                            <ul>
+                                                <li data-filter="acer">
+                                                    <label for="data-Resolution-1">
+                                                        <input type="checkbox" id="data-Resolution-1" value="13 inch">
+                                                        13 inch
+                                                    </label>
+                                                </li>
+                                                <li data-filter="asus">
+                                                    <label for="data-Resolution-2">
+                                                        <input type="checkbox" id="data-Resolution-2" value="14 inch">
+                                                        14 inch
+                                                    </label>
+                                                    
+                                                </li>
+                                                <li data-filter="lenovo">
+                                                    <label for="data-Resolution-3">
+                                                        <input type="checkbox" id="data-Resolution-3" value="15.6 inch">
+                                                        15.6 inch
+                                                    </label>
+                                                </li>
+                                                <li data-filter="MSI">
+                                                    <label for="data-Resolution-4">
+                                                        <input type="checkbox" id="data-Resolution-4" value="16 inch">
+                                                        16 inch
+                                                    </label>
+                                                </li>
+                                                <li data-filter="MSI">
+                                                    <label for="data-Resolution-4">
+                                                        <input type="checkbox" id="data-Resolution-5" value="17.3 inch">
+                                                        17.3 inch
+                                                    </label>
+                                                </li>
+                                                <li data-filter="MSI">
+                                                    <label for="data-Resolution-4">
+                                                        <input type="checkbox" id="data-Resolution-6" value="18 inch">
+                                                        18 inch
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-collection-wrapper">
+                        <div class="container-collection laptop">
+                            <div class="collection-product-name"><strong>LAPTOP</strong></div>
+                            <div class="collection-sort">
+                                <div class="sort-wrapper">
+                                    <div class="sort-button"><i class='bx bx-sort-down'></i>
+                                        <span class="sortlist_text">Xếp theo: </span>
+                                        <span class="sortlist_value current_sort">Nổi bật</span>
+                                    </div>
+                                    <div class="list_sort_wrapper sortby-option sortBy">
+                                        <ul class="list_sort">
+                                            <li class="list_sort_item" data-value="manual"><span>Nổi bật</span></li>
+                                            <li class="list_sort_item" data-value="price-acending"> <span>Giá Tăng Dần</span></li>
+                                            <li class="list_sort_item" data-value="price-descending"><span>Giá Giảm Dần</span></li>
+                                            <li class="list_sort_item" data-value="title-acending"><span>A - Z</span></li>
+                                            <li class="list_sort_item" data-value="title-descending"><span>Z - A</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collection-product">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptopacernitro5tiger.webp" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href="#"><span class="product-name">Laptop Gaming Acer Nitro 5 Tiger AN515 58 50EE</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptopacernitrov.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href="#"><span class="product-name">Laptop Gaming Acer Nitro V ANV15 51 72VS</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptopasustufF15.webp" alt="">
+                                        </div>
+                                        
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gaming Asus TUF F15 FX507ZC4 HN074W</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptoplenovoLOQ.webp" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gaming Lenovo LOQ 15IRH8 82XV00QPVN</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptopgf6312uc.webp" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gaming MSI GF63 12UCX 841VN</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptoplenovolegion9.webp" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gaming Lenovo Legion 9 16IRX8 83AG0047VN</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptopmsistealth16.webp" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gaming MSI Stealth 16 Mercedes AMG A13VG 289VN</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptopacerpredatorhelios300.webp" alt="">
+                                        </div>
+                                        
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gaming Acer Predator Helios 300 PH315 55 751D</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/latopasustufa15.webp" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gaming ASUS TUF Gaming A15 FA507NV LP046W</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="/product-image/laptop/laptopgigabyteg5.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="product-detail">
+                                        <a href=""><span class="product-name">Laptop Gigabyte G5 MF-F2VN333SH</span></a>
+                                        <div class="cost">
+                                            <span class="CostBeforeSale"><del>29.990.000<sup>₫</sup></del></span>
+                                            <span class="RealCost">19.990.000<sup>₫</sup></span> 
+                                        </div>
+                                        <ul class="para-tag">
+                                            <li><i class='bx bxs-chip'></i> <span>i5-12450H</span></li>
+                                            <li><img src="//theme.hstatic.net/200000837185/1001187855/14/config_tags_image_4_icon.png?v=1616" style="width: 15px; height:15px"> <span>RTX 3050</span></li>
+                                            <li><i class="fa-solid fa-memory"></i> <span>8 GB DDR4</span></li>
+                                            <li><i class='bx bx-desktop'></i> <span>15.6"FHD 144Hz</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-product"><a href="">Xem tất cả</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="button-scroll-back"><i class='bx bxs-up-arrow'></i></div>
+        <!-- footer -->
+        <footer>
+            <div class="logo-footer"><img src="/image/logot.png" alt="" srcset=""></div>
+            <p>©2024 Lý Phương Khải B2111930
+                <br><i class="fa-solid fa-location-dot"></i> 115/8e Phường An Thới, Quận Bình Thủy, Thành Phố Cần Thơ
+                <br><i class='bx bxs-envelope'></i> khaiB2111930@student.ctu.edu.vn
+            </p>
+            <div class="social-footer">
+                <div class="facebook-footer"><a href="https://www.facebook.com/B1ue.04/"><i class='bx bxl-facebook-circle'></i></a></div>
+                <div class="instagram-footer"><a href="https://www.instagram.com/khiisme/"><i class='bx bxl-instagram'></i></a></div>
+            </div>
+        </footer>
+        <div class="modal-register m-hidden">
+            <div class="modal__inner">
+                <div class="modal_header">
+                    <h3 class="modal_title"></h3>
+                    <div class="modal_close"><i class='bx bx-x'></i></div>
+                </div>
+                <hr>
+                <div class="modal_body">
+                    <div class="form-wrap">
+                        <div class="register-form m-hidden">
+                            <form action="" method="post" id="create-cus" accept-charset="UTF-8">
+                                <input type="hidden" name="form-type" value="create-cús">
+                                <input type="hidden" name="utf8" value="✓">
+                                <div class="form-input-wrapper">
+                                    <input type="text" name="" id="register[cus-name]" required placeholder="Họ và Tên">
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <input type="email" name="" id="register[cus-email]" required  placeholder="Email">
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <input type="tel" name="" id="register[cus-phone]" required placeholder="Số điện thoại">
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <input type="password" name="" id="register[cus-pass]" required placeholder="Mật Khẩu">
+                                </div>
+                                <input type="hidden" name="cus-role" value="1">
+                                <div class="form-input-wrapper last">
+                                    <button type="submit">Đăng Kí</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="login-form m-hidden">
+                            <form action="" method="post" id="cus-login" accept-charset="UTF-8">
+                                <input type="hidden" name="form-type" value="create-cús">
+                                <input type="hidden" name="utf8" value="✓">
+                                <div class="form-input-wrapper">
+                                    <input type="email" name="" id="login[cus-email]" required  placeholder="Email">
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <input type="password" name="" id="login[cus-pass]" required placeholder="Mật Khẩu">
+                                </div>
+                                <div class="form-input-wrapper text-right">
+                                    <a href="javascript:void(0)">Quên mật khẩu</a>
+                                </div>
+                                <input type="hidden" name="cus-role" value="1">
+                                <div class="form-input-wrapper last">
+                                    <button type="submit">Đăng nhập</button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="modal_footer">
+                    <div class="form-chng-btn login-footer m-hidden">
+                        <span>Bạn chưa có tài khoản?<a href="javascript:void(0)" class="register-trigger">Đăng ký ngay</a></span>
+                    </div>
+                    <div class="form-chng-btn register-footer m-hidden">
+                        <span>Bạn đã có tài khoản?<a href="javascript:void(0)" class="login-trigger">Đăng nhập</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="/javascript/login-res.js"></script>
+<script type="text/javascript" src="/javascript/category.js"></script>
+<script type="text/javascript" src="/javascript/scroll.js"></script>
+    <script type="text/javascript" src="/javascript/collection.js"></script>
+</html>

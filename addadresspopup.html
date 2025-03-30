@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/layout/add-address.css">
+    <link rel="stylesheet" href="/layout/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af6fee153e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="popup m-hidden">
+        <div class="popup-main">
+            <div class="popup-header">
+                <span>Thông tin người nhận hàng</span>
+                <div class="modal_close"><i class='bx bx-x'></i></div>
+            </div>
+            <div class="popup-content">
+                <form action="" method="post">
+                <div class="username-input form-group required">
+                    <label for="user-fullname">Họ và Tên</label>
+                    <input type="text" name="fullname" id="user-fullname" placeholder="Vui lòng nhập tên người nhận hàng" class="form-input" required>
+                </div>
+                <div class="phone-input form-group required">
+                    <label for="user-phone">Số Điện Thoại</label>
+                    <input type="tel" name="phone" id="user-phone" placeholder="Nhập số điện thoại" class="form-input" required>
+                </div>
+                <hr>
+                <div class="location-info-title"><span>Địa chỉ giao hàng</span></div>
+                <div class="location-info-wrapper">
+                    <div class="form-group required">
+                        <label for="user-city">Tỉnh/Thành Phố</label>
+                        <select id="user-city" class="form-input" required>
+                            <option value="null">Chọn thành phố</option>
+                        </select>
+                    </div>
+                    <div class="form-group required">
+                        <label for="user-district">Quận/Huyện</label>
+                        <select id="user-district" class="form-input" required>
+                            <option value="null">Chọn Quận/Huyện</option>
+                        </select>
+                    </div>
+                    <div class="form-group required">
+                        <label for="user-wards">Phường/Xã</label>
+                        <select id="user-wards" class="form-input" required>
+                            <option value="null">Chọn Phường/Xã</option>
+                        </select>
+                    </div>
+                    <div class="detail-location form-group required">
+                        <label for="user-dt-add" >Địa chỉ cụ thể</label>
+                        <input type="text" name="" id="user-dt-add" placeholder="Nhập đường,số nhà,...." class="form-input" required>
+                    </div>
+            </div>
+            <div class="popup-footer">
+                <button class="btn-savead" type="submit">Lưu địa chỉ</button>
+            </div>
+            </for>
+        </div>
+    </div>
+</body>
+<script src="/javascript/addad.js"></script>
+</html>

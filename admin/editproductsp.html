@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af6fee153e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo"><img src="/image/logot.png" alt="" srcset=""></div>
+            <div class="logout">
+                <i class="fa-regular fa-user"></i> 
+                <span>Xin chào Admin</span>
+                <a href="javascript:(0)">Đăng Xuất</a>
+            </div>
+        </header>
+        <div class="container">
+            <section class="sidebar">
+                <div class="sidebar-header"><i class="fa-solid fa-list"></i> Bảng Điều Khiển</div>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item"><i class="fa-solid fa-house-flood-water"></i><a href="index.php">Trang Chủ</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-table-list"></i><a href="index.php?control=category">Danh Mục </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-box"></i><a href="index.php?control=product">Sản Phẩm </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-box"></i><a href="index.php?control=productsp"> Thông Số Sản Phẩm </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class='bx bx-images'></i><a href="index.php?control=productgal">Gallery</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-users"></i><a href="index.php?control=user">User</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-brands fa-apple"></i><a href="index.php?control=brand">Thương Hiệu</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-regular fa-clipboard"></i><a href="index.php?control=orders">Đơn Hàng</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-arrow-trend-up"></i><a href="index.php?control=avenue">Doanh Số</a> <i class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="admin-content">
+                <div class="content-header">
+                    <span>Cập Nhật Thông Số Sản Phẩm</span>
+                </div>
+                <div class="content-main--category">
+                    <div class="update-form">
+                        <div class="form-input-wrapper--update-form">
+                            <label for="product_name">Tên Thông Số</label>
+                            <input type="text" name="product_name" id="product_name" required  placeholder="Nhập tên sản phẩm">
+                        </div>
+                        <div class="form-input-wrapper--update-form">
+                            <label for="product_name">Giá Trị</label>
+                            <input type="text" name="product_name" id="product_name" required  placeholder="Nhập tên sản phẩm">
+                        </div>
+                        <div class="form-input-wrapper--update-form">
+                            <label for="product_name">Tên Sản Phẩm</label>
+                            <select name="product_name" id="product_name" class="form-input" required>
+                                <option value="0">Chọn Sản Phẩm</option>
+                            </select>
+                        </div>
+                        <div class="form-submit--update-form last">
+                            <input type="submit" name="update-tssp" value="Cập Nhập">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="logo-footer"><img src="/image/logot.png" alt="" srcset=""></div>
+            <p>©2024 Lý Phương Khải B2111930
+                <br><i class="fa-solid fa-location-dot"></i> 115/8e Phường An Thới, Quận Bình Thủy, Thành Phố Cần Thơ
+                <br><i class='bx bxs-envelope'></i> khaiB2111930@student.ctu.edu.vn
+            </p>
+            <div class="social-footer">
+                <div class="facebook-footer"><a href="https://www.facebook.com/B1ue.04/"><i class='bx bxl-facebook-circle'></i></a></div>
+                <div class="instagram-footer"><a href="https://www.instagram.com/khiisme/"><i class='bx bxl-instagram'></i></a></div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

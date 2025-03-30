@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af6fee153e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo"><img src="/image/logot.png" alt="" srcset=""></div>
+            <div class="logout">
+                <i class="fa-regular fa-user"></i> 
+                <span>Xin chào Admin</span>
+                <a href="javascript:(0)">Đăng Xuất</a>
+            </div>
+        </header>
+        <div class="container">
+            <section class="sidebar">
+                <div class="sidebar-header"><i class="fa-solid fa-list"></i> Bảng Điều Khiển</div>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item"><i class="fa-solid fa-house-flood-water"></i><a href="index.php">Trang Chủ</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-table-list"></i><a href="index.php?control=category">Danh Mục </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-box"></i><a href="index.php?control=product">Sản Phẩm </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-box"></i><a href="index.php?control=productsp"> Thông Số Sản Phẩm </a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class='bx bx-images'></i><a href="index.php?control=productgal">Gallery</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-users"></i><a href="index.php?control=user">User</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-brands fa-apple"></i><a href="index.php?control=brand">Thương Hiệu</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-regular fa-clipboard"></i><a href="index.php?control=orders">Đơn Hàng</a> <i class="fa-solid fa-angle-right"></i></li>
+                        <li class="navbar-item"><i class="fa-solid fa-arrow-trend-up"></i><a href="index.php?control=avenue">Doanh Số</a> <i class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="admin-content">
+                <div class="content-header">
+                    <span>Sản Phẩm</span>
+                </div>
+
+                <div class="content-main--category">
+                        <table class="table" cellpadding="3" cellspacing="0">
+                            <thead>
+                                <th>ID</th>
+                                <th>Tên Sản Phẩm</th>
+                                <th>Avatar</th>
+                                <th>Miêu tả</th>
+                                <th>Giá thực tế</th>
+                                <th>Giá giảm</th>
+                                <th>Bảo hành</th>
+                                <th>Thương hiệu</th>
+                                <th colspan="2">Hành động</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Laptop Gaming Asus TUF F15 FX506HF HN078W</td>
+                                    <td><img src="/gallery/laptopasustufF15.webp" alt=""></td>
+                                    <td class="truncanted">Laptop Gaming Asus TUF F15 FX506HF-HN078W mang đến một trải nghiệm chơi game hoàn toàn mới, với sự kết hợp hoàn hảo giữa phần cứng ấn tượng và thiết kế gọn nhẹ nhưng vô cùng mạnh mẽ. Được trang bị bộ vi xử lý Intel Core i5 11260H 6 nhân 12 luồng, RAM 16GB DDR4 3200MHz (có thể nâng cấp lên 32GB), VGA RTX 2050 4GB, và màn hình IPS 144Hz với bàn phím có đèn nền RGB, chiếc laptop này là sự lựa chọn hoàn hảo cho game thủ đòi hỏi hiệu năng và trải nghiệm chơi game mượt mà.</td>
+                                    <td>20000000.00</td>
+                                    <td>30000000.00</td>
+                                    <td>12 tháng</td>
+                                    <th>Asus</th>
+                                    <td><a class="button-togglehid show" href="">Hiện</a></td>
+                                    <td>
+                                        <a class="button-edit" href=""><i class="fa-regular fa-pen-to-square"></i> Sửa</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Laptop Gaming Asus TUF F15 FX506HF HN078W</td>
+                                    <td><img src="/gallery/coolermasterGA2701S.webp" alt=""></td>
+                                    <td class="truncanted">Laptop Gaming Asus TUF F15 FX506HF-HN078W mang đến một trải nghiệm chơi game hoàn toàn mới, với sự kết hợp hoàn hảo giữa phần cứng ấn tượng và thiết kế gọn nhẹ nhưng vô cùng mạnh mẽ. Được trang bị bộ vi xử lý Intel Core i5 11260H 6 nhân 12 luồng, RAM 16GB DDR4 3200MHz (có thể nâng cấp lên 32GB), VGA RTX 2050 4GB, và màn hình IPS 144Hz với bàn phím có đèn nền RGB, chiếc laptop này là sự lựa chọn hoàn hảo cho game thủ đòi hỏi hiệu năng và trải nghiệm chơi game mượt mà.</td>
+                                    <td>20000000.00</td>
+                                    <td>30000000.00</td>
+                                    <td>12 tháng</td>
+                                    <th>Asus</th>
+                                    <td>
+                                        <a class="button-togglehid hidden" href="">Ẩn</a>
+                                    </td>
+                                    <td>
+                                        <a class="button-edit" href=""><i class="fa-regular fa-pen-to-square"></i> Sửa</a>
+                                    </td>
+                                </tr>
+                                
+                        </tbody>
+                    </table>
+                    <button class="btn-add">Thêm Sản Phẩm Mới</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="logo-footer"><img src="/image/logot.png" alt="" srcset=""></div>
+            <p>©2024 Lý Phương Khải B2111930
+                <br><i class="fa-solid fa-location-dot"></i> 115/8e Phường An Thới, Quận Bình Thủy, Thành Phố Cần Thơ
+                <br><i class='bx bxs-envelope'></i> khaiB2111930@student.ctu.edu.vn
+            </p>
+            <div class="social-footer">
+                <div class="facebook-footer"><a href="https://www.facebook.com/B1ue.04/"><i class='bx bxl-facebook-circle'></i></a></div>
+                <div class="instagram-footer"><a href="https://www.instagram.com/khiisme/"><i class='bx bxl-instagram'></i></a></div>
+            </div>
+        </footer>
+        <div class="modal m-hidden">
+            <div class="modal__inner">
+                <div class="modal_header">
+                    <h3 class="modal_title">Thêm Sản Phẩm Mới</h3>
+                    <div class="modal_close"><i class='bx bx-x'></i></div>
+                </div>
+                <hr>
+                <div class="modal_body">
+                    <form action="" method="POST" id="add-pro" accept-charset="UTF-8">
+                        <div class="form-input-wrapper">
+                            <label for="product_name">Tên Sản Phẩm</label>
+                            <input type="text" name="product_name" id="product_name" required  placeholder="Nhập tên sản phẩm">
+                        </div>
+                        
+                        <div class="form-input-wrapper">
+                            <label for="cost_now">Giá Thực Tế</label>
+                            <input type="number" name="cost_now" id="cost_now" required  placeholder="Nhập Giá" min="1">
+                        </div>
+                        <div class="form-input-wrapper">
+                            <label for="cost_compare">Giá Giảm</label>
+                            <input type="number" name="cost_compare" id="cost_compare" required  placeholder="Nhập Giá" min="1">
+                        </div>
+                        <div class="form-input-wrapper">
+                            <label for="warranty">Bảo Hành</label>
+                            <input type="number" name="warranty" id="warranty" required  placeholder="Nhập thời gian bảo hành/tháng">
+                        </div>
+                        <div class="form-input-wrapper">
+                            <label for="brand">Thương hiệu</label>
+                            <select name="brand" id="brand" class="form-input" required>
+                                <option value="0">Chọn Thương Hiệu</option>
+                            </select>
+                        </div>
+                        <div class="form-input-wrapper">
+                            <label for="stock">Số lượng kho</label>
+                            <input type="number" name="stock" id="stock" required  placeholder="Nhập số lượng hàng nhập vào kho" min="1">
+                        </div>
+                        <div class="form-input-wrapper last">
+                            <input type="submit" name="dangnhap" value="Thêm">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal_footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

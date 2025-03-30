@@ -1,0 +1,156 @@
+.container-checkout-main{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+}
+.container-checkout-main .left{
+    background-color: white;
+    width: 70%;
+    height: 100%;
+}
+
+.container-checkout-main .right{
+    background-color: white;
+    width: 28.5%;
+    height: 100%;
+}
+.order-detail .order-info-wrapper .product-info{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.order-detail .order-info-wrapper .product-info .product-dt{
+    display: flex;
+    flex-direction: column;
+}
+.order-detail .order-info-wrapper .product-info .product-dt .pro-name{
+    font-weight: 500;
+}
+.order-detail .order-info-wrapper .product-info .product-dt .pro-quantity,.pro-cost{
+    font-size: 12px;
+}
+.order-detail .order-info-wrapper .product-info .product-dt .pro-cost .cost-now{
+    color:red;
+    font-size: 15px;
+}
+.order-detail .order-info-wrapper .product-info .product-img img{
+    width:100px;
+    height: 100px;
+}
+.order-detail .checkout-submit{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.submit-button input{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 80%;
+    font-family: 500;
+    font-size: 19px;
+}
+.submit-button input:hover{
+    background-color: white;
+    color: black;
+}
+.submit-button{
+    margin-bottom: 15px;
+}
+.order-detail .checkout-submit .temp-cost,.shipping-fee,.final-cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.order-detail .checkout-submit .final-cost div:nth-child(2){
+    color:red;
+    font-weight: 500;
+}
+.container-checkout-main .title{
+    color: red;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 20px;
+}
+.container-checkout .shipping-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.container-checkout .shipping-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-checkout .shipping-info .pay-type {
+    margin-bottom: 20px;
+}
+.container-checkout .shipping-info .pay-type span{
+    font-weight: 500;
+}
+.container-checkout .shipping-info-wrapper .form-group{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.shipping-info-wrapper .choose-log-in{
+    margin-left: 30px;
+    font-style: italic;
+}
+.shipping-info-wrapper .choose-log-in a{
+    color: blue;
+}
+.shipping-info-wrapper .location-info-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.shipping-info-wrapper .location-info-title{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.shipping-info-wrapper label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.shipping-info-wrapper .form-group.required label::after{
+    position: relative;
+    left: 5px;
+    content:"*";
+    color: red;
+}
+.container-checkout .shipping-info-wrapper .form-input{
+    display: block;
+    padding: 12px;
+    width: 80%;
+    outline: none;
+    border: 1px solid gray;
+}
+.shipping-info-wrapper .location-info-wrapper .form-input{
+    width: 100%;
+}
+.shipping-info-wrapper .location-info-wrapper .form-group{
+    width:40%;
+}
+.shipping-info-wrapper .order-note textarea{
+    display: block;
+    align-content: center;
+    font-weight: 500;
+    font-size: 13px;
+    width: 80%;
+    line-height: 11px;
+    padding: 20px;
+}
+.shipping-info .pay-type .pay-type-title{
+    margin-left: 20px;
+}

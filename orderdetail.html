@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/layout/index.css">
+    <link rel="stylesheet" href="/layout/account.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/af6fee153e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav_link">
+                    <li><a href=""><i class="fa-solid fa-percent" ></i> Khuyến mãi</a></li>
+                    <li><a href=""><i class="fa-solid fa-wrench" ></i> Xây dựng cấu hình</a></li>
+                    <li><a href=""><i class="fa-regular fa-newspaper"></i> Tin công nghệ</a></li>
+                    <li><a href="#"><i class="fa-solid fa-headset"></i> Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div id="container">
+            <div id="container-content" role="navigation">
+                    <div class="logo">
+                        <a href="index.html" title="Home Page" rel="home">
+                            <img src="image/logot.png" >
+                        </a>
+                    </div>
+                    <div class="Category">
+                        <button id="button-cat"><i class="fa-solid fa-bars"></i><span> Danh mục sản phẩm</span></button>
+                        <div class = 'dropdown-category'>
+                            <div class='dropdown-content'>
+                                <div class="sub-item">
+                                    <a href="#" class="cat laptop">
+                                        <div class="catcontent-wrapper">
+                                            <div class="icon"><i class='bx bx-laptop'></i></div>
+                                            <div class="icon-content"> Laptop</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-item">
+                                    <a href="#" class="cat monitor">
+                                        <div class="catcontent-wrapper">
+                                            <div class="icon"><i class='bx bx-desktop'></i></div>
+                                            <div class="icon-content"> Màn hình máy tính</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-item">
+                                    <a href="#" class="cat PC">
+                                        <div class="catcontent-wrapper">
+                                            <div class="icon" ><i class="fa-solid fa-computer"></i></div>
+                                            <div class="icon-content"> PC - Máy tính Bộ</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-item">
+                                    <a href="#" class="cat PCcp">
+                                        <div class="catcontent-wrapper">
+                                            <div class="icon"><i class='bx bx-chip'></i></div>
+                                            <div class="icon-content"> Linh kiện máy tính</div>
+                                        </div>
+                                    </a>
+                                    <div class="submenu-2">
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp RAM">
+                                                <span class="name-sub">RAM -Bộ Nhớ Trong</span>
+                                            </a>
+                                        </div>
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp RAM">
+                                                <span class="name-sub">CPU - Vi xử lý</span>
+                                            </a>
+                                        </div>
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp RAM">
+                                                    <span class="name-sub">Case - Thùng Máy</span>
+                                            </a>
+                                        </div>
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp RAM">
+                                                    <span class="name-sub">Main Board - Bo Mạch</span>
+                                            </a>
+                                        </div>
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp RAM">
+                                                    <span class="name-sub">VGA - Card Đồ Họa</span>
+                                            </a>
+                                        </div>
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp RAM">
+                                                <span class="name-sub">SSD - HDD</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub-item"> 
+                                    <a href="#" class="cat ">
+                                        <div class="catcontent-wrapper">
+                                            <div class="icon"><i class='bx bx-mouse' ></i></div>
+                                            <div class="icon-content"> Phụ Kiện Máy Tính</div>
+                                        </div>
+                                    </a>
+                                    <div class="submenu-2">
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp mouse">
+                                                <span class="name-sub">Chuột</span>
+                                            </a>
+                                        </div>
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp pad">
+                                                    <span class="name-sub">Lót Chuột</span>
+                                            </a>
+                                        </div>
+                                        <div class="sub-item">
+                                            <a href="#" class="cat PCcp earphone">
+                                                <span class="name-sub">Tai Nghe</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                <form action="" class="search" title="Submit">
+                        <input type="text" placeholder="Nhập tên sản phẩm cần tìm..." autocomplete="on">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i> </button>
+                </form>
+                <div id="cart">
+                    <div class="button" title="Cart">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="countAmount-cart">0</span>
+                        </a>
+                    </div>
+                    <div class="cart-dropdown-wrapper">
+                        <div class="cart-dropdown-content">
+                            <div class="img-cart-dropdown"><img src="image/cart-img-empty.png" alt=""></div>
+                            <span class="empty-cart-content">Chưa có sản phẩm trong giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="login" title="login/register">
+                    <a href="javascript:void(0)" class="content-lg-dropdown">
+                        <i class="fa-regular fa-user"></i> 
+                        <span>Đăng nhập/Đăng kí</span>
+                    </a>
+                    <div class="login-register-dropdown m-hidden">
+                        <div class="login-register-notlogged-dropdown">
+                            <div class="login-register-text">Xin chào, vui lòng đăng nhập</div>
+                            <div class="action-button">
+                                <button class="btn-login btn-action">Đăng nhập</button>
+                                <button class="btn-register btn-action">Đăng ký</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="container-user">
+            <div class="top">
+                <a  href="index.html"><p>Trang Chủ</p></a> &#8260; <span class="cart-title">Tài Khoản</span> &#8260; <span class="cart-title">Thông tin tài khoản</span>
+            </div>
+            <div class="container-user-main">
+                <div class="hd left">
+                    <div class="left-header">
+                        <i class='bx bxs-user-circle'></i>
+                        <span class="name-user">Khải</span>
+                    </div>
+                    <ul class="left-menu">
+                        <ul class="left-menu">
+                            <li class="menu-item">
+                                <a href="index.php?page=account">Thông tin tài khoản</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="index.php?page=orderlist">Thông tin đơn hàng</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:void(0)">Danh sách địa chỉ</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="index.php?page=logout">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="right wrapper">
+                    <div class="main user-address">
+                        <div class="main-header">
+                            <span>Đơn hàng của bạn / N0608229Mar24022145</span>
+                        </div>
+                        <div class="box-content">
+                            <div class="content-order">
+                                <div class="user-info">
+                                    <div class="title-user"><p><strong>Thông tin người nhận hàng</strong></p></div>
+                                    <div class="user-name"><p><strong>Người nhận</strong> : Lý Phương Khải</p></div>
+                                    <div class="user-address"><p><strong>Địa chỉ</strong>: 115/8e </p></div>
+                                    <div class="user-tel"><p><strong>Điện thoại</strong>:</p></div>
+                                    <div class="user-email"><p><strong>Email</strong>:</p></div>
+                                </div>
+                                <div class="order-info">
+                                    <div class="order-title"><p><strong>Thông tin đơn hàng</strong></p></div>
+                                    <div class="order-pt"><p><strong>Phương thức thanh toán</strong>:Thanh toán khi giao hàng</p></div>
+                                    <div class="order-status"><p><strong>Trạng thái đơn hàng</strong>: Đang xử lý</p></div>
+                                    <div class="order-date"><p><strong>Thời gian đặt hàng</strong>:2024/08/27</p></div>
+                                </div>
+                                <div class="order-product-info">
+                                    <div class="product-title"><strong>Sản Phẩm</strong></div>
+                                    <div class="product-box">
+                                        <div class="product-left">
+                                            <div class="product-img"><img src="/gallery/product-avt/mouse/chuot-dareu-em911-rgb.jpg" alt="" srcset=""></div>
+                                            <div class="product-name"><p>Chuột DareU EM911 RBG</p></div>
+                                        </div>
+                                        <div class="product-right">
+                                            <div class="product-cost">19.999.999</div>
+                                            <div class="product-quantity">Số lượng: 1</div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="order-cost">
+                                    <div class="temp-cost"><p>Tổng tạm tính: <span>30.490.00đ</span></p></div>
+                                    <div class="shipcost"><p>Phí vận chuyển: <span>30.490.00đ</span></p></div>
+                                    <div class="finalcost"><p>Thành tiền: <span>30.490.00đ</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="logo-footer"><img src="/image/logot.png" alt="" srcset=""></div>
+        <p>©2024 Lý Phương Khải B2111930
+            <br><i class="fa-solid fa-location-dot"></i> 115/8e Phường An Thới, Quận Bình Thủy, Thành Phố Cần Thơ
+            <br><i class='bx bxs-envelope'></i> khaiB2111930@student.ctu.edu.vn
+        </p>
+        <div class="social-footer">
+            <div class="facebook-footer"><a href="https://www.facebook.com/B1ue.04/"><i class='bx bxl-facebook-circle'></i></a></div>
+            <div class="instagram-footer"><a href="https://www.instagram.com/khiisme/"><i class='bx bxl-instagram'></i></a></div>
+        </div>
+    </footer>
+</body>
+</html>
